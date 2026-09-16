@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Mohamed Borhen 👋</h1>
 
 <p align="center">
-  Engineering student @ ENSI (École Nationale des Sciences de l'Informatique) · Tunisia<br/>
-  Building AI-powered developer tools — multi-agent systems, code intelligence, applied ML
+  Third-year Computer Science Engineering student @ ENSI (École Nationale des Sciences de l'Informatique) · Tunisia<br/>
+  Passionate about AI, LLMs, NLP, and agentic systems — exploring the intersection of AI and Software Engineering
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ### 🎓 What I study
 
-Software engineering, networking, finance, and cybersecurity — coursework spanning microservices architecture, authentication protocols (Kerberos, RBAC), portfolio theory, and transformer architectures, alongside project work like an SME credit-risk assessment platform (SHAP-explainable ensemble models) for the Tunisian financial market.
+AI, Computer Vision, and Software Engineering — coursework spanning microservices architecture, authentication protocols (Kerberos, RBAC), portfolio theory, and transformer architectures, alongside project work like an SME credit-risk assessment platform (SHAP-explainable ensemble models) for the Tunisian financial market.
 
 ### 🛠️ Tech I work with
 
@@ -38,7 +38,9 @@ Software engineering, networking, finance, and cybersecurity — coursework span
 
 ### 📫 Reach me
 
-Open an issue on any of my repos, or connect on [GitHub](https://github.com/mohamedborhen).
+- 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-borhen-khlifi-b07626325/)
+- 📧 [Mohamedborhen.khlifi@ensi-uma.tn](mailto:Mohamedborhen.khlifi@ensi-uma.tn)
+- 🐙 [GitHub](https://github.com/mohamedborhen)
 
 ---
 
