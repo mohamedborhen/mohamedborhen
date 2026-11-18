@@ -1,45 +1,47 @@
-<div align="center">
+<h1 align="center">Hi, I'm Mohamed Borhen 👋</h1>
 
-**Mohamed Borhen Khlifi** · AI & Software Engineering
+<p align="center">
+  Third-year Computer Science Engineering student @ ENSI (École Nationale des Sciences de l'Informatique) · Tunisia<br/>
+  Passionate about AI, LLMs, NLP, and agentic systems — exploring the intersection of AI and Software Engineering
+</p>
 
-[Systems](#selected-systems) · [Architecture Deep-Dives](#architecture-deep-dives) · [Tech Stack](#tech-stack) · [Experience](#experience) · [Contact](#contact)
-
-</div>
-
----
-
-Third-year Computer Science Engineering student at **ENSI**, specializing in **Agentic AI, LLMs, Deep Learning, and modular backend systems**.  
-Currently engineering multi-agent LLM workflows, explainable ML pipelines, and domain-generalization vision models.  
-Seeking a **4–6 month PFE internship (starting early 2027)** in AI Engineering, ML Engineering, or GenAI — **[LinkedIn](https://www.linkedin.com/in/mohamed-borhen-khlifi-b07626325/)** · **[Email](mailto:your.email@example.com)** · **[Resume (PDF)](https://link-to-your-cv)**
-
-> [!TIP]
-> **Interactive profile:** Click any project drawer under **Architecture Deep-Dives** below to inspect system flows, design decisions, and native diagrams without leaving this page.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
 
 ---
 
-## Selected Systems
+### 🔭 Currently building
 
-| Project | Focus | Core Stack | Key Highlight |
-| :--- | :--- | :--- | :--- |
-| **[code-review-agent](https://github.com/mohamedborhen/code-review-agent)** | Multi-Agent LLM System | Python, FastAPI, DeepAgents, MCP, Git, SQLite, Docker | Automated PR & diff review using Model Context Protocol (MCP) and Code Review Graphs |
-| **[credit-risk-analysis](https://github.com/mohamedborhen/credit-risk-analysis)** | Explainable FinTech ML | XGBoost, Random Forest, SHAP, FastAPI, React.js | Stacked meta-learner credit scoring with per-decision SHAP explanations & interactive chatbot |
-| **[CLIP-DRDG](https://github.com/mohamedborhen/CLIP-DRDG)** | Vision & Domain Generalization | PyTorch, CLIP, ViT, CoOpLVT, DomainBed | Cross-domain diabetic retinopathy benchmark across APTOS, EyePACS, Messidor & Messidor-2 |
-| **[fraud_detection_app](https://github.com/mohamedborhen/fraud_detection_app)** | Real-Time Fraud Detection | Python, Scikit-learn, `[FastAPI / Streamlit]` | End-to-end anomaly & fraud scoring pipeline `[add key metric, e.g., PR-AUC / F1]` |
+**[ReviewMind](https://github.com/mohamedborhen/code-review-agent)** — an AI code review platform that runs 4+ specialist agents (security, compliance, performance, regression) over a Tree-sitter-derived structural code graph, with GitHub webhook integration, Jira/Confluence context via MCP, and a React PWA frontend. Summer internship project exploring whether graph-based code representation beats classic RAG chunking for code review.
+
+- 5-layer hexagonal backend architecture (FastAPI, SQLModel)
+- Multi-agent orchestration via `deepagents`/LangGraph
+- MCP tool ecosystem: code graph, GitHub, Atlassian, documentation lookup
+- 267 backend tests, full E2E-verified frontend flows
+
+### 🧪 Research & applied ML
+
+**[CLIP-DRDG](https://github.com/mohamedborhen/CLIP-DRDG)** — investigating CLIP's transfer learning capabilities for domain generalization in diabetic retinopathy classification, with a custom prompt-optimization algorithm (CoOpLVT) and medical-imaging-specific augmentation strategies.
+
+### 🎓 What I study
+
+AI, Computer Vision, and Software Engineering — coursework spanning microservices architecture, authentication protocols (Kerberos, RBAC), portfolio theory, and transformer architectures, alongside project work like an SME credit-risk assessment platform (SHAP-explainable ensemble models) for the Tunisian financial market.
+
+### 🛠️ Tech I work with
+
+`Python` · `FastAPI` · `SQLModel` · `PyTorch` · `React` · `TypeScript` · `Docker` · `LangGraph` · `MCP`
+
+### 📫 Reach me
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-borhen-khlifi-b07626325/)
+- 📧 [Mohamedborhen.khlifi@ensi-uma.tn](mailto:Mohamedborhen.khlifi@ensi-uma.tn)
+- 🐙 [GitHub](https://github.com/mohamedborhen)
 
 ---
 
-## Architecture Deep-Dives
-
-<details>
-<summary><b>1. code-review-agent</b> — Multi-Agent AI Code Reviewer (Click to expand)</summary>
-<br>
-
-Designed to automate contextual code reviews by combining repository graph traversal with multi-agent LLM reasoning.
-
-```mermaid
-flowchart LR
-    A[Git Diff / PR] --> B[Code Review Graph]
-    B --> C[MCP Server Context]
-    C --> D[DeepAgents Orchestrator]
-    D --> E[FastAPI Service + SQLite]
-    E --> F[Structured Review Output]
+<p align="center"><i>Pinned repos below showcase what I'm most proud of — feel free to dig into the READMEs, most have full architecture writeups.</i></p>
